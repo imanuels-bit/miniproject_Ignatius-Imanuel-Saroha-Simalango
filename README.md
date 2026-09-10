@@ -2,11 +2,18 @@
 * Program Python sederhana untuk mengelola data buronan menggunakan list yang berisi tuple sebagai tempat penyimpanan sementara, dengan menu pilihan berulang (while loop) dan validasi input di setiap prosesnya
 
 ## Fitur Atau Program Dari Code Tersebut
-1. Tambah Data Buronan dengan menginput angka 1:  input nama, jenis kejahatan, dan tingkat bahaya (1-10), lalu ditambahkan ke list
+1. Tambah Data Buronan dengan menginput angka 1:  input nama, jenis kejahatan, dan tingkat bahaya 1-10, lalu ditambahkan ke list
 2. Tampilkan Data Buronan dengan menginput angka 2: menampilkan seluruh data buronan dalam bentuk tabel
 3. Ubah Data Buronan dengan menginput angka 3: mengubah data buronan yang sudah ada, misalnya untuk memperbarui status jika buronan sudah tertangkap
 4. Hapus Data Buronan dengan menginput angka 4: menghapus data dari list, digunakan jika kasus dibatalkan, buronan ternyata tidak bersalah
 5. selesai dengan menginput angka 5
+
+## Validasi Input
+* Memvalidasi input dengan cara menggunakan code pengecekan agar program tidak crash meskipun user salah memasukkan data
+  1. Pilihan menu harus berupa angka 1-5, jika salah akan diminta input ulang
+  2. Nama dan jenis kejahatan tidak boleh kosong
+  3. Tingkat bahaya harus berupa angka 1-10
+  4. Nomor data (saat ubah/hapus) harus sesuai dengan data yang tersedia di list.
 
 ## Berikut gambar flowchartnya
 <img width="1203" height="523" alt="Screenshot 2026-09-10 083443" src="https://github.com/user-attachments/assets/16a73e7d-2cb8-47c7-965d-7b8c4aeb826c" />
