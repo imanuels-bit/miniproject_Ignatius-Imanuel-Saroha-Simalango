@@ -4,7 +4,7 @@
 ## Fitur Atau Program Dari Code Tersebut
 1. Tambah Data Buronan dengan menginput angka 1:  input nama, jenis kejahatan, dan tingkat bahaya 1-10, lalu ditambahkan ke list
 2. Tampilkan Data Buronan dengan menginput angka 2: menampilkan seluruh data buronan dalam bentuk tabel
-3. Ubah Data Buronan dengan menginput angka 3: mengubah data buronan yang sudah ada, misalnya untuk memperbarui status jika buronan sudah tertangkap
+3. Ubah Data Buronan dengan menginput angka 3: mengubah data buronan yang sudah ada, misalnya untuk memperbarui status jika buronan sudah tertangkap / memperbarui jenis kejahatan yang baru serta tingkat bahaya yang baru
 4. Hapus Data Buronan dengan menginput angka 4: menghapus data dari list, digunakan jika kasus dibatalkan, buronan ternyata tidak bersalah
 5. selesai dengan menginput angka 5
 
