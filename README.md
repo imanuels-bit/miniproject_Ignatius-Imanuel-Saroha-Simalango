@@ -1,7 +1,7 @@
-# Sistem pencatatan buronan kepolisian
+# Sistem Pencatatan Buronan Kepolisian
 * Program Python sederhana untuk mengelola data buronan menggunakan list yang berisi tuple sebagai tempat penyimpanan sementara, dengan menu pilihan berulang (while loop) dan validasi input di setiap prosesnya
 
-## Fitur dari code tersebut
+## Fitur Atau Program Dari Code Tersebut
 1. Tambah Data Buronan dengan menginput angka 1:  input nama, jenis kejahatan, dan tingkat bahaya (1-10), lalu ditambahkan ke list
 2. Tampilkan Data Buronan dengan menginput angka 2: menampilkan seluruh data buronan dalam bentuk tabel
 3. Ubah Data Buronan dengan menginput angka 3: mengubah data buronan yang sudah ada, misalnya untuk memperbarui status jika buronan sudah tertangkap
