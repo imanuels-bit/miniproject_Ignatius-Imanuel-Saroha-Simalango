@@ -9,7 +9,7 @@
 5. selesai dengan menginput angka 5
 
 ## Validasi Input
-* Memvalidasi input dengan cara menggunakan code pengecekan agar program tidak crash meskipun user salah memasukkan data
+ Memvalidasi input dengan cara menggunakan code pengecekan agar program tidak crash meskipun user salah memasukkan data
   1. Pilihan menu harus berupa angka 1-5, jika salah akan diminta input ulang
   2. Nama dan jenis kejahatan tidak boleh kosong
   3. Tingkat bahaya harus berupa angka 1-10
