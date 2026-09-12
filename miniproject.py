@@ -35,7 +35,7 @@ def Databuronan():
         bahaya = Iangka("Tingkat bahaya (1-10): ")
 
     daftarBuronan.append((nama, jenis, bahaya))
-    print("Data '" + nama + "' berhasil ditambahkan.")
+    print("Data '" + nama + "' berhasil ditambahkan")
 
 def tampilburonan():
     print("\n==== Daftar buronan =====")
@@ -110,7 +110,7 @@ def hapusdata():
 
     alasan = input("Pilih alasan (1/2): ")
     while alasan != "1" and alasan != "2":
-        print("Pilihan tidak ada! Masukkan 1 atau 2.")
+        print("Pilihan tidak ada! Masukkan 1 atau 2")
         alasan = input("Pilih alasan (1/2): ")
 
     if alasan == "1":
@@ -121,9 +121,9 @@ def hapusdata():
     konfirmasi = input("Yakin ingin menghapus data " + nama + "' (" + keterangan + ")? (y/n): ")
     if konfirmasi == "y":
         daftarBuronan.pop(index)
-        print("Data berhasil dihapus.")
+        print("Data berhasil dihapus")
     else:
-        print("Penghapusan dibatalkan.")
+        print("Penghapusan dibatalkan")
 
 def main():
     while True:
